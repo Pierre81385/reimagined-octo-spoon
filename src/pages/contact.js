@@ -18,9 +18,13 @@ export default function Contact() {
     table: {
       width: "100%",
       color: "white",
+      paddingBottom: "25px",
     },
     td: {
       width: "175px",
+    },
+    footer: {
+      paddingTop: "25px",
     },
   };
   return (

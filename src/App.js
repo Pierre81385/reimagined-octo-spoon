@@ -8,6 +8,8 @@ import Contact from "./pages/contact";
 import { Link } from "react-router-dom";
 import { Container, Row, Col } from "react-bootstrap";
 import myVideoBackground from "../src/assets/pexels-rostislav-uzunov-7385122.mp4";
+import phone from "../src/assets/phone.png";
+import email from "../src/assets/email.png";
 import { classes } from "istanbul-lib-coverage";
 
 //Create basic page layout here:  {nav links}, {cards in grid layout}, {footer links}
@@ -39,6 +41,13 @@ function App() {
     router: {
       zIndex: "2",
     },
+    h1: {
+      fontFamily: "'Caveat', cursive",
+    },
+    icons: {
+      width: "25px",
+      margin: "15px",
+    },
   };
 
   return (
@@ -47,7 +56,7 @@ function App() {
         <Container fluid>
           <Row>
             <Col sm={4} style={style.header}>
-              <h1>PETER J BISHOP</h1>
+              <h1 style={style.h1}>- Peter J Bishop -</h1>
             </Col>
             <Col sm={8} style={style.header}>
               <Link
@@ -72,8 +81,14 @@ function App() {
                 to="/contact"
                 style={style.link}
               >
-                CONTACT
+                CONNECT
               </Link>
+              <a href="mailto: pjb.den@gmail.com">
+                <img src={email} style={style.icons}></img>
+              </a>
+              <a href="tel:7202725223">
+                <img src={phone} style={style.icons}></img>
+              </a>
             </Col>
           </Row>
         </Container>
