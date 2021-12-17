@@ -9,7 +9,8 @@ export default function About() {
       color: "white",
       paddingLeft: "25px",
       paddingRight: "25px",
-      margin: "25px",
+      justifyContent: "center",
+      alignItems: "center",
     },
     li: {
       textAlign: "left",
