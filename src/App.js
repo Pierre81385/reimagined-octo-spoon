@@ -25,6 +25,8 @@ function App() {
       padding: "15px",
       color: "white",
       outlineColor: "none",
+      backgroundColor: "Transparent",
+      marginLeft: "10px",
     },
     img: {
       width: "75%",
@@ -61,7 +63,7 @@ function App() {
             <Col sm={8} style={style.header}>
               <Link
                 variant="outline-dark"
-                className="btn btn-lg m-2"
+                className="btn btn-outline-light"
                 to="/about"
                 style={style.link}
               >
@@ -69,7 +71,7 @@ function App() {
               </Link>
               <Link
                 variant="outline-dark"
-                className="btn btn-lg m-2"
+                className="btn btn-outline-light"
                 to="/work"
                 style={style.link}
               >
@@ -77,7 +79,7 @@ function App() {
               </Link>
               <Link
                 variant="outline-dark"
-                className="btn btn-lg m-2"
+                className="btn btn-outline-light"
                 to="/contact"
                 style={style.link}
               >
