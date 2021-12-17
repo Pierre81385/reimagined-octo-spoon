@@ -83,12 +83,14 @@ function App() {
               >
                 CONNECT
               </Link>
-              <a href="mailto: pjb.den@gmail.com">
-                <img src={email} style={style.icons}></img>
-              </a>
-              <a href="tel:7202725223">
-                <img src={phone} style={style.icons}></img>
-              </a>
+              <div>
+                <a href="mailto: pjb.den@gmail.com">
+                  <img src={email} style={style.icons}></img>
+                </a>
+                <a href="tel:7202725223">
+                  <img src={phone} style={style.icons}></img>
+                </a>
+              </div>
             </Col>
           </Row>
         </Container>
