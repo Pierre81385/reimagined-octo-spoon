@@ -17,6 +17,8 @@ export default function About() {
     img: {
       borderRadius: "50%",
       marginBottom: "50px",
+      marginLeft: "auto",
+      marginRight: "auto",
       border: "5px solid #fff",
       textAlign: "center",
     },

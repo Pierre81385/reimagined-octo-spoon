@@ -56,7 +56,7 @@ function App() {
         <Container fluid>
           <Row>
             <Col sm={4} style={style.header}>
-              <h1 style={style.h1}>- Peter J Bishop -</h1>
+              <h1 style={style.h1}>- Peter J Bishop</h1>
             </Col>
             <Col sm={8} style={style.header}>
               <Link
