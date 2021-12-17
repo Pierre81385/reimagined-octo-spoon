@@ -1,7 +1,6 @@
 import "./App.css";
 import { BrowserRouter as Router, Route, Redirect } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Icon from "./assets/Peter J Bishop.png";
 import About from "./pages/about";
 import Work from "./pages/work";
 import Contact from "./pages/contact";

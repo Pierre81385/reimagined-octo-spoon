@@ -1,5 +1,6 @@
 import React from "react";
 import profilePic from "../assets/profile.jpg";
+import resume from "../assets/Peter Bishop - Resume CURRENTPDF.pdf";
 
 export default function About() {
   const style = {
@@ -8,6 +9,7 @@ export default function About() {
       color: "white",
       paddingLeft: "25px",
       paddingRight: "25px",
+      margin: "25px",
     },
     li: {
       textAlign: "left",
@@ -18,12 +20,20 @@ export default function About() {
       border: "5px solid #fff",
     },
     content: {
+      padding: "25px",
+
       background: "rgba(0, 0, 0, 0.5)",
+    },
+    resume: {
+      color: "white",
+      margin: "25px",
+      fontFamily: "'Bebas Neue', cursive;",
     },
   };
   return (
     <div style={style.container}>
       <img src={profilePic} style={style.img}></img>
+
       <div style={style.content}>
         <p>
           My name is Peter Bishop, and after years of working lower level roles
@@ -79,6 +89,13 @@ export default function About() {
             recipes that are still available today.
           </li>
         </ul>
+      </div>
+      <div>
+        <h1>
+          <a href={resume} style={style.resume}>
+            Download My Resume
+          </a>
+        </h1>
       </div>
     </div>
   );

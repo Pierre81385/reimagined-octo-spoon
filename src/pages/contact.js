@@ -3,6 +3,7 @@ import gitImage from "../assets/GitHub_logo.png";
 import facebookImage from "../assets/facebook.png";
 import instagramImage from "../assets/instagram.png";
 import linkedinImage from "../assets/linkedin.png";
+import "../contact.css";
 
 export default function Contact() {
   const style = {
