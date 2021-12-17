@@ -18,6 +18,7 @@ export default function About() {
       borderRadius: "50%",
       marginBottom: "50px",
       border: "5px solid #fff",
+      textAlign: "center",
     },
     content: {
       padding: "25px",
