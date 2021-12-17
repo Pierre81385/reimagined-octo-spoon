@@ -1,6 +1,7 @@
 import React from "react";
 import profilePic from "../assets/profile.jpg";
 import resume from "../assets/Peter Bishop - Resume CURRENTPDF.pdf"; //updated 12/16/2021
+import downloadIcon from "../assets/downloadIcon.png";
 
 export default function About() {
   const style = {
@@ -33,10 +34,22 @@ export default function About() {
       margin: "25px",
       fontFamily: "'Bebas Neue', cursive;",
     },
+    icon: {
+      width: "50px",
+    },
+    iconContainer: {
+      marginBottom: "25px",
+    },
   };
   return (
     <div style={style.container}>
       <img src={profilePic} style={style.img}></img>
+      <div style={style.iconContainer}>
+        <p>DOWNLOAD CV</p>
+        <a href={resume}>
+          <img src={downloadIcon} style={style.icon}></img>
+        </a>
+      </div>
 
       <div style={style.content}>
         <p>
@@ -93,13 +106,6 @@ export default function About() {
             recipes that are still available today.
           </li>
         </ul>
-      </div>
-      <div>
-        <h1>
-          <a href={resume} style={style.resume}>
-            Download My Resume
-          </a>
-        </h1>
       </div>
     </div>
   );
