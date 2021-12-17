@@ -53,7 +53,12 @@ export default function Work() {
                   responsible for designing the logic on the backend that
                   returns beers based on user input.
                 </Card.Text>
-                <Button variant="primary">Git Repo</Button>
+                <a
+                  href="https://github.com/TJCourey/beerMe-international"
+                  className="btn btn-outline-light"
+                >
+                  Git Repo
+                </a>
               </Card.Body>
             </Card>
           </Col>
@@ -67,7 +72,12 @@ export default function Work() {
                   Employee Tracker is a Content Management System for managing a
                   company's employees using node, inquirer, and MySQL.
                 </Card.Text>
-                <Button variant="primary">Git Repo</Button>
+                <a
+                  href="https://github.com/Pierre81385/employeeTracker"
+                  className="btn btn-outline-light"
+                >
+                  Git Repo
+                </a>
               </Card.Body>
             </Card>
           </Col>
@@ -84,7 +94,12 @@ export default function Work() {
                   in local storage and displayed for easy retrieval. Weather
                   information is retrived via API.
                 </Card.Text>
-                <Button variant="primary">Git Repo</Button>
+                <a
+                  href="https://github.com/Pierre81385/weatherDashboard-HW6"
+                  className="btn btn-outline-light"
+                >
+                  Git Repo
+                </a>
               </Card.Body>
             </Card>
           </Col>
@@ -98,7 +113,12 @@ export default function Work() {
                   create an account for posting recipes and commenting on others
                   with full CRUD functionality.
                 </Card.Text>
-                <Button variant="primary">Git Repo</Button>
+                <a
+                  href="https://github.com/JaredWilliam97/Favorite-Recipes"
+                  className="btn btn-outline-light"
+                >
+                  Git Repo
+                </a>
               </Card.Body>
             </Card>
           </Col>

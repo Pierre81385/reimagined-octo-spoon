@@ -24,6 +24,7 @@ function App() {
       fontFamily: "'Bebas Neue', cursive;",
       padding: "15px",
       color: "white",
+      outlineColor: "none",
     },
     img: {
       width: "75%",
