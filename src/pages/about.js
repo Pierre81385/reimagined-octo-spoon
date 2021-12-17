@@ -1,6 +1,6 @@
 import React from "react";
 import profilePic from "../assets/profile.jpg";
-import resume from "../assets/Peter Bishop - Resume CURRENTPDF.pdf";
+import resume from "../assets/Peter Bishop - Resume CURRENTPDF.pdf"; //updated 12/16/2021
 
 export default function About() {
   const style = {
