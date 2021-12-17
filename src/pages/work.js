@@ -18,7 +18,7 @@ export default function Work() {
       height: "100%", // so that the content will center correctly
       paddingTop: "25px",
       paddingBottom: "25px",
-      paddingLeft: "110px", //NEEDS MEDIA QUERY to set this only to set when viewport is small
+      //paddingLeft: "110px", //NEEDS MEDIA QUERY to set this only to set when viewport is small
     },
     img: {
       width: "300px",
