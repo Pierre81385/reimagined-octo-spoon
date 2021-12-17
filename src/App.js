@@ -27,6 +27,7 @@ function App() {
       outlineColor: "none",
       backgroundColor: "Transparent",
       marginLeft: "10px",
+      marginTop: "10px",
     },
     img: {
       width: "75%",
