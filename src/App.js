@@ -11,8 +11,6 @@ import phone from "../src/assets/phone.png";
 import email from "../src/assets/email.png";
 import { classes } from "istanbul-lib-coverage";
 
-//Create basic page layout here:  {nav links}, {cards in grid layout}, {footer links}
-
 function App() {
   const style = {
     header: {

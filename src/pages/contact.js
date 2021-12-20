@@ -33,57 +33,77 @@ export default function Contact() {
       <table style={style.table}>
         <tr>
           <td style={style.td}>
-            <a href="https://github.com/Pierre81385">
-              <img
-                src={`${gitImage}`}
-                alt="github"
-                className="logo hover-shadow"
-                id="gitLogo"
-                style={style.img}
-              />
-            </a>
+            <div className="divForHover">
+              <a href="https://github.com/Pierre81385">
+                <img
+                  src={`${gitImage}`}
+                  alt="github"
+                  className="logo hover-shadow"
+                  id="gitLogo"
+                  style={style.img}
+                />
+              </a>
+              <div className="hiddenText">
+                <p>GitHub</p>
+              </div>
+            </div>
           </td>
         </tr>
 
         <tr>
           <td>
-            <a href="https://www.linkedin.com/in/peter-bishop-46a51597/">
-              <img
-                src={`${linkedinImage}`}
-                alt="github"
-                className="logo"
-                id="gitLogo"
-                style={style.img}
-              />
-            </a>
+            <div className="divForHover">
+              <a href="https://www.linkedin.com/in/peter-bishop-46a51597/">
+                <img
+                  src={`${linkedinImage}`}
+                  alt="linkedin"
+                  className="logo"
+                  id="linkedinLogo"
+                  style={style.img}
+                />
+              </a>
+              <div className="hiddenText">
+                <p>LinkedIn</p>
+              </div>
+            </div>
           </td>
         </tr>
 
         <tr>
           <td>
-            <a href="https://github.com/Pierre81385">
-              <img
-                src={`${instagramImage}`}
-                alt="github"
-                className="logo"
-                id="gitLogo"
-                style={style.img}
-              />
-            </a>
+            <div className="divForHover">
+              <a href="https://www.instagram.com/pjb.den/">
+                <img
+                  src={`${instagramImage}`}
+                  alt="instagram"
+                  className="logo"
+                  id="instagramLogo"
+                  style={style.img}
+                />
+              </a>
+              <div className="hiddenText">
+                <p>Instagram</p>
+              </div>
+            </div>
           </td>
         </tr>
 
         <tr>
           <td>
-            <a href="https://www.facebook.com/PeterJBishop">
-              <img
-                src={`${facebookImage}`}
-                alt="github"
-                className="logo"
-                id="gitLogo"
-                style={style.img}
-              />
-            </a>
+            <div className="divForHover">
+              <a href="https://www.facebook.com/PeterJBishop">
+                <img
+                  src={`${facebookImage}`}
+                  alt="facebook"
+                  className="logo"
+                  id="facebookLogo"
+                  style={style.img}
+                />
+              </a>
+              <div className="hiddenText">
+                <p>Facebook</p>
+              </div>{" "}
+            </div>
           </td>
         </tr>
       </table>
