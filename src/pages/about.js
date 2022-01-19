@@ -21,12 +21,13 @@ export default function About() {
       marginBottom: "50px",
       marginLeft: "auto",
       marginRight: "auto",
-      border: "5px solid #fff",
+      border: "2px solid #fff",
       textAlign: "center",
     },
     content: {
       padding: "25px",
-
+      borderRadius: "5px",
+      backdropFilter: "blur(7px)",
       background: "rgba(0, 0, 0, 0.5)",
     },
     resume: {

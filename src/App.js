@@ -6,7 +6,7 @@ import Work from "./pages/work";
 import Contact from "./pages/contact";
 import { Link } from "react-router-dom";
 import { Container, Row, Col } from "react-bootstrap";
-import myVideoBackground from "../src/assets/pexels-rostislav-uzunov-7385122.mp4";
+import myVideoBackground from "../src/assets/blur.mp4";
 import phone from "../src/assets/phone.png";
 import email from "../src/assets/email.png";
 import { classes } from "istanbul-lib-coverage";
