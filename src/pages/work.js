@@ -3,9 +3,9 @@ import { Container, Row, Col, Card, Button, Carousel } from "react-bootstrap";
 import beerMe from "../assets/beerme.gif";
 import budgetTracker from "../assets/budgetTracker.png";
 import employeeTracker from "../assets/employeeTracker.png";
-import fitnessTracker from "../assets/fitnessTracker.png";
 import weatherDashboard from "../assets/weatherDashboard.png";
 import favoriteRecipes from "../assets/favoriteRecipes.png";
+import scalingLamp from "../assets/scalingLamp.gif";
 
 export default function Work() {
   const style = {
@@ -35,11 +35,44 @@ export default function Work() {
       width: "18rem",
       color: "white",
     },
+    button: {
+      marginLeft: "10px",
+    },
   };
   return (
     <div style={{ maxWidth: "100vw", overflowX: "hidden" }}>
       <Container style={style.container} fluid>
         <Row xs={1} sm={2} md={3} className="g-4">
+          <Col>
+            <Card style={style.card}>
+              <Card.Img variant="top" src={scalingLamp} />
+              <Card.Body>
+                <Card.Title>Scaling-Lamp</Card.Title>
+                <Card.Text>
+                  Scaling-Lamp is a demonstration of an ecommerce site built on
+                  the MERN stack. Users can create an account and login, with
+                  authenticaion via JWT enabling logged-in users to access the
+                  entire site. Logged-in users can go beyond viewing availible
+                  products, with the ability to create, update, and delete
+                  products, as well as adding products to a purchase cart. This
+                  is an open-ended project, which is continually updated.
+                </Card.Text>
+                <a
+                  href="https://github.com/Pierre81385/scaling-lamp"
+                  className="btn btn-outline-light"
+                >
+                  Git Repo
+                </a>
+                <a
+                  href="https://hidden-inlet-42331.herokuapp.com/"
+                  className="btn btn-outline-light"
+                  style={style.button}
+                >
+                  Deployed Site
+                </a>
+              </Card.Body>
+            </Card>
+          </Col>
           <Col>
             <Card style={style.card}>
               <Card.Img variant="top" src={beerMe} />
@@ -58,6 +91,13 @@ export default function Work() {
                   className="btn btn-outline-light"
                 >
                   Git Repo
+                </a>
+                <a
+                  href="https://tjcourey.github.io/beerMe-international/"
+                  className="btn btn-outline-light"
+                  style={style.button}
+                >
+                  Deployed Site
                 </a>
               </Card.Body>
             </Card>
@@ -100,6 +140,13 @@ export default function Work() {
                 >
                   Git Repo
                 </a>
+                <a
+                  href="https://pierre81385.github.io/weatherDashboard-HW6/"
+                  className="btn btn-outline-light"
+                  style={style.button}
+                >
+                  Deployed Site
+                </a>
               </Card.Body>
             </Card>
           </Col>
@@ -118,6 +165,13 @@ export default function Work() {
                   className="btn btn-outline-light"
                 >
                   Git Repo
+                </a>
+                <a
+                  href="https://murmuring-river-43433.herokuapp.com/"
+                  className="btn btn-outline-light"
+                  style={style.button}
+                >
+                  Deployed Site
                 </a>
               </Card.Body>
             </Card>
