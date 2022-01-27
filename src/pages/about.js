@@ -28,7 +28,7 @@ export default function About() {
       padding: "25px",
       borderRadius: "5px",
       backdropFilter: "blur(2px)",
-      background: "rgba(0, 0, 0, 0.5)",
+      background: "rgba(0, 0, 0, 0.3)",
     },
     resume: {
       color: "white",

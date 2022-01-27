@@ -1,7 +1,0 @@
-.hiddenText {
-  display: none;
-}
-
-.divForHover:hover .hiddenText {
-  display: block;
-}

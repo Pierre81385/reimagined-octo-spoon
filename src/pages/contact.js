@@ -3,7 +3,6 @@ import gitImage from "../assets/GitHub_logo.png";
 import facebookImage from "../assets/facebook.png";
 import instagramImage from "../assets/instagram.png";
 import linkedinImage from "../assets/linkedin.png";
-import "../contact.css";
 
 export default function Contact() {
   const style = {
@@ -43,9 +42,6 @@ export default function Contact() {
                   style={style.img}
                 />
               </a>
-              <div className="hiddenText">
-                <p>GitHub</p>
-              </div>
             </div>
           </td>
         </tr>
@@ -62,9 +58,6 @@ export default function Contact() {
                   style={style.img}
                 />
               </a>
-              <div className="hiddenText">
-                <p>LinkedIn</p>
-              </div>
             </div>
           </td>
         </tr>
@@ -81,9 +74,6 @@ export default function Contact() {
                   style={style.img}
                 />
               </a>
-              <div className="hiddenText">
-                <p>Instagram</p>
-              </div>
             </div>
           </td>
         </tr>
@@ -100,9 +90,6 @@ export default function Contact() {
                   style={style.img}
                 />
               </a>
-              <div className="hiddenText">
-                <p>Facebook</p>
-              </div>{" "}
             </div>
           </td>
         </tr>

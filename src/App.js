@@ -143,24 +143,25 @@ function App() {
               </Link>
             </Col>
           </Row>
+          <Row style={{ textAlign: "center", marginBottom: "25px" }}>
+            <div>
+              <img src={jquery} alt="jquery" style={style.icons2}></img>
+              {/* <img src={github} alt="github" style={style.icons2}></img> */}
+              <img src={mysql} alt="mysql" style={style.icons2}></img>
+              <img src={html5} alt="html" style={style.icons2}></img>
+              <img src={mongodb} alt="mongodb" style={style.icons2}></img>
+              <img src={json} alt="json" style={style.icons2}></img>
+              <img src={css} alt="css" style={style.icons2}></img>
+              <img src={node} alt="nodejs" style={style.icons2}></img>
+              <img src={javascript} alt="javascript" style={style.icons2}></img>
+              {/* <img src={swift} alt="swift" style={style.icons2}></img> */}
+              <img src={react} alt="react" style={style.icons2}></img>
+              {/* <img src={boostrap} alt="bootstrap" style={style.icons2}></img> */}
+              {/* <img src={express} alt="express" style={style.icons2}></img> */}
+            </div>
+          </Row>
         </Container>
-        <Row style={{ textAlign: "center", marginBottom: "25px" }}>
-          <div>
-            <img src={jquery} alt="jquery" style={style.icons2}></img>
-            <img src={github} alt="github" style={style.icons2}></img>
-            <img src={mysql} alt="mysql" style={style.icons2}></img>
-            <img src={html5} alt="html" style={style.icons2}></img>
-            <img src={mongodb} alt="mongodb" style={style.icons2}></img>
-            <img src={json} alt="json" style={style.icons2}></img>
-            <img src={css} alt="css" style={style.icons2}></img>
-            <img src={node} alt="nodejs" style={style.icons2}></img>
-            <img src={javascript} alt="javascript" style={style.icons2}></img>
-            <img src={swift} alt="swift" style={style.icons2}></img>
-            <img src={react} alt="react" style={style.icons2}></img>
-            <img src={boostrap} alt="bootstrap" style={style.icons2}></img>
-            <img src={express} alt="express" style={style.icons2}></img>
-          </div>
-        </Row>
+
         <div id="mainContiner">
           <video
             autoPlay="autoplay"
