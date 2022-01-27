@@ -32,12 +32,10 @@ function App() {
     header: {
       textAlign: "center",
       color: "white",
-      padding: "25px",
     },
     header2: {
       textAlign: "center",
       color: "white",
-      padding: "25px",
     },
     link: {
       fontFamily: "'Bebas Neue', cursive;",
@@ -48,16 +46,14 @@ function App() {
       marginLeft: "25px",
       marginTop: "10px",
       whiteSpace: "nowrap",
-      marginBottom: "10px",
     },
     link2: {
       fontFamily: "'Bebas Neue', cursive;",
-      //padding: "15px",
       color: "white",
       outlineColor: "none",
       backgroundColor: "Transparent",
       marginLeft: "10px",
-      marginTop: "10px",
+      marginTop: "25x",
       whiteSpace: "nowrap",
       marginBottom: "10px",
     },
@@ -81,8 +77,8 @@ function App() {
       fontFamily: "'Caveat', cursive",
     },
     icons: {
-      width: "25px",
-      margin: "15px",
+      width: "15px",
+      margin: "10px",
     },
     icons2: {
       margin: "25px",
@@ -94,19 +90,20 @@ function App() {
   return (
     <div>
       <Router style={style.router}>
-        <Container fluid style={style.container}>
+        <Container fluid>
           <Row>
             <Col sm={4} style={style.header}>
-              <h1 style={style.h1}>- Peter J Bishop</h1>
+              <h1 style={style.h1}>- Peter John Bishop</h1>
               <div>
                 <a href="mailto: pjb.den@gmail.com" style={style.link2}>
-                  {" "}
-                  pjb.den@gmail.com
                   <img src={email} style={style.icons}></img>
+                  pjb.den@gmail.com
                 </a>
+              </div>
+              <div>
                 <a href="tel:7202725223" style={style.link2}>
-                  720-272-5223
                   <img src={phone} style={style.icons}></img>
+                  720-272-5223
                 </a>
               </div>
             </Col>
