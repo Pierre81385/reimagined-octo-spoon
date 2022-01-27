@@ -23,6 +23,7 @@ export default function About() {
       marginRight: "auto",
       border: "2px solid #fff",
       textAlign: "center",
+      width: "250px",
     },
     content: {
       padding: "25px",
