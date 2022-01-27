@@ -36,3 +36,8 @@
     transform: rotate(360deg);
   }
 }
+
+.icon-react:before {
+  content: "\e90b";
+  color: #61dafb;
+}

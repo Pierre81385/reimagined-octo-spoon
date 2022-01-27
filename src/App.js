@@ -11,9 +11,30 @@ import phone from "../src/assets/phone.png";
 import email from "../src/assets/email.png";
 import { classes } from "istanbul-lib-coverage";
 
+//icons
+
+import jquery from "../src/assets/icons/194922_jquery_social media_icon.png";
+import github from "../src/assets/icons/317712_code repository_github_repository_resource_icon.png";
+import html5 from "../src/assets/icons/317755_badge_html_html5_achievement_award_icon.png";
+import css from "../src/assets/icons/317756_badge_css_css3_achievement_award_icon.png";
+import javascript from "../src/assets/icons/652581_code_command_develop_javascript_language_icon.png";
+import mysql from "../src/assets/icons/1012821_code_development_logo_mysql_icon.png";
+import mongodb from "../src/assets/icons/1012822_code_development_logo_mongodb_programming_icon.png";
+import json from "../src/assets/icons/2993435_array_data_file_javascript_json_icon.png";
+import node from "../src/assets/icons/4375017_js_logo_node_icon.png";
+import swift from "../src/assets/icons/4375105_logo_swift_icon.png";
+import react from "../src/assets/icons/7423887_react_react native_icon.png";
+import boostrap from "../src/assets/icons/8546808_bootstrap_icon.png";
+import express from "../src/assets/icons/kisspng-mean-solution-stack-express-js-node-js-javascript-5b1647bd733da2.082026521528186813472.png";
+
 function App() {
   const style = {
     header: {
+      textAlign: "center",
+      color: "white",
+      padding: "25px",
+    },
+    header2: {
       textAlign: "center",
       color: "white",
       padding: "25px",
@@ -26,6 +47,19 @@ function App() {
       backgroundColor: "Transparent",
       marginLeft: "25px",
       marginTop: "10px",
+      whiteSpace: "nowrap",
+      marginBottom: "10px",
+    },
+    link2: {
+      fontFamily: "'Bebas Neue', cursive;",
+      //padding: "15px",
+      color: "white",
+      outlineColor: "none",
+      backgroundColor: "Transparent",
+      marginLeft: "10px",
+      marginTop: "10px",
+      whiteSpace: "nowrap",
+      marginBottom: "10px",
     },
     img: {
       width: "75%",
@@ -43,23 +77,40 @@ function App() {
       zIndex: "2",
     },
     h1: {
+      whiteSpace: "nowrap",
       fontFamily: "'Caveat', cursive",
     },
     icons: {
       width: "25px",
       margin: "15px",
     },
+    icons2: {
+      margin: "25px",
+      textAlign: "center",
+      width: "48px",
+    },
   };
 
   return (
     <div>
       <Router style={style.router}>
-        <Container fluid>
+        <Container fluid style={style.container}>
           <Row>
             <Col sm={4} style={style.header}>
               <h1 style={style.h1}>- Peter J Bishop</h1>
+              <div>
+                <a href="mailto: pjb.den@gmail.com" style={style.link2}>
+                  {" "}
+                  pjb.den@gmail.com
+                  <img src={email} style={style.icons}></img>
+                </a>
+                <a href="tel:7202725223" style={style.link2}>
+                  720-272-5223
+                  <img src={phone} style={style.icons}></img>
+                </a>
+              </div>
             </Col>
-            <Col sm={8} style={style.header}>
+            <Col sm={8} style={style.header2}>
               <Link
                 variant="outline-dark"
                 className="btn btn-outline-light"
@@ -84,22 +135,26 @@ function App() {
               >
                 CONNECT
               </Link>
-              <div>
-                <a href="mailto: pjb.den@gmail.com" style={style.link}>
-                  {" "}
-                  pjb.den@gmail.com
-                  <img src={email} style={style.icons}></img>
-                </a>
-                <a href="tel:7202725223" style={style.link}>
-                  (720) 272-5223
-                  <img src={phone} style={style.icons}></img>
-                </a>
-              </div>
             </Col>
           </Row>
         </Container>
-        <div></div>
-
+        <Row style={{ textAlign: "center", marginBottom: "25px" }}>
+          <div>
+            <img src={jquery} alt="jquery" style={style.icons2}></img>
+            <img src={github} alt="github" style={style.icons2}></img>
+            <img src={mysql} alt="mysql" style={style.icons2}></img>
+            <img src={html5} alt="html" style={style.icons2}></img>
+            <img src={mongodb} alt="mongodb" style={style.icons2}></img>
+            <img src={json} alt="json" style={style.icons2}></img>
+            <img src={css} alt="css" style={style.icons2}></img>
+            <img src={node} alt="nodejs" style={style.icons2}></img>
+            <img src={javascript} alt="javascript" style={style.icons2}></img>
+            <img src={swift} alt="swift" style={style.icons2}></img>
+            <img src={react} alt="react" style={style.icons2}></img>
+            <img src={boostrap} alt="bootstrap" style={style.icons2}></img>
+            <img src={express} alt="express" style={style.icons2}></img>
+          </div>
+        </Row>
         <div id="mainContiner">
           <video
             autoPlay="autoplay"
