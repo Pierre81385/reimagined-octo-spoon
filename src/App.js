@@ -47,6 +47,15 @@ function App() {
       marginTop: "10px",
       whiteSpace: "nowrap",
     },
+    firstLink: {
+      fontFamily: "'Bebas Neue', cursive;",
+      padding: "15px",
+      color: "white",
+      outlineColor: "none",
+      backgroundColor: "Transparent",
+      marginTop: "10px",
+      whiteSpace: "nowrap",
+    },
     link2: {
       fontFamily: "'Bebas Neue', cursive;",
       color: "white",
@@ -112,7 +121,7 @@ function App() {
                 variant="outline-dark"
                 className="btn btn-outline-light"
                 to="/about"
-                style={style.link}
+                style={style.firstLink}
               >
                 ABOUT
               </Link>
