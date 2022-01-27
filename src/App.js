@@ -6,7 +6,7 @@ import Work from "./pages/work";
 import Contact from "./pages/contact";
 import { Link } from "react-router-dom";
 import { Container, Row, Col } from "react-bootstrap";
-import myVideoBackground from "../src/assets/blur.mp4";
+import myVideoBackground from "../src/assets/video.mp4";
 import phone from "../src/assets/phone.png";
 import email from "../src/assets/email.png";
 import { classes } from "istanbul-lib-coverage";
@@ -24,7 +24,7 @@ function App() {
       color: "white",
       outlineColor: "none",
       backgroundColor: "Transparent",
-      marginLeft: "10px",
+      marginLeft: "25px",
       marginTop: "10px",
     },
     img: {
@@ -85,16 +85,20 @@ function App() {
                 CONNECT
               </Link>
               <div>
-                <a href="mailto: pjb.den@gmail.com">
+                <a href="mailto: pjb.den@gmail.com" style={style.link}>
+                  {" "}
+                  pjb.den@gmail.com
                   <img src={email} style={style.icons}></img>
                 </a>
-                <a href="tel:7202725223">
+                <a href="tel:7202725223" style={style.link}>
+                  (720) 272-5223
                   <img src={phone} style={style.icons}></img>
                 </a>
               </div>
             </Col>
           </Row>
         </Container>
+        <div></div>
 
         <div id="mainContiner">
           <video
