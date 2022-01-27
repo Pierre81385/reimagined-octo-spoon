@@ -26,7 +26,7 @@ export default function About() {
     },
     content: {
       padding: "25px",
-      borderRadius: "5px",
+      borderRadius: "10px",
       backdropFilter: "blur(2px)",
       background: "rgba(0, 0, 0, 0.3)",
     },
@@ -44,7 +44,7 @@ export default function About() {
       <img src={profilePic} style={style.img}></img>
       <div style={style.content}>
         <div style={style.iconContainer}>
-          <p>DOWNLOAD CV</p>
+          <h2>DOWNLOAD CV</h2>
           <a href={resume}>
             <img src={downloadIcon} style={style.icon}></img>
           </a>
@@ -52,6 +52,11 @@ export default function About() {
       </div>
 
       <div style={style.content}>
+        <h2>Proficiencies</h2>
+        <p>
+          HTML | CSS | JAVASCRIPT | JQUERY | MONGODB | MYSQL | REACTjs | EXPRESS
+          | NODEjs | HANDLEBARS | BOOSTRAP | RESTful | graphQL | JSON
+        </p>
         <p>
           My name is Peter Bishop, and after years of working lower level roles
           in various tech startups while maintaining side jobs bartending at
