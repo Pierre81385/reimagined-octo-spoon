@@ -22,7 +22,7 @@ export default function Work() {
       //paddingLeft: "110px", //NEEDS MEDIA QUERY to set this only to set when viewport is small
     },
     img: {
-      width: "300px",
+      width: "1000px",
     },
     card: {
       marginRight: "auto",
@@ -43,7 +43,7 @@ export default function Work() {
   return (
     <div style={{ maxWidth: "100vw", overflowX: "hidden" }}>
       <Container style={style.container} fluid>
-        <Row xs={1} sm={2} md={3} className="g-4">
+        <Row xs={1} sm={2} md={3} lg={4} className="g-4">
           <Col>
             <Card style={style.card}>
               <Card.Img variant="top" src={TheNightClub} />
