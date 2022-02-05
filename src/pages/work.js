@@ -6,6 +6,7 @@ import employeeTracker from "../assets/employeeTracker.png";
 import weatherDashboard from "../assets/weatherDashboard.png";
 import favoriteRecipes from "../assets/favoriteRecipes.png";
 import scalingLamp from "../assets/scalingLamp.gif";
+import TheNightClub from "../assets/nightclub.gif";
 
 export default function Work() {
   const style = {
@@ -43,6 +44,36 @@ export default function Work() {
     <div style={{ maxWidth: "100vw", overflowX: "hidden" }}>
       <Container style={style.container} fluid>
         <Row xs={1} sm={2} md={3} className="g-4">
+          <Col>
+            <Card style={style.card}>
+              <Card.Img variant="top" src={TheNightClub} />
+              <Card.Body>
+                <Card.Title>T[-]H NIGHTCLUB</Card.Title>
+                <Card.Text>
+                  This site is primarly a demonstrator and experiment in
+                  creating a layout with sliding sections of moving content. The
+                  result is a night club themed site with 4 sections that each
+                  display a different video background with overlayed content. I
+                  relied heavily on the creative use of CSS to solve a variety
+                  of creative challenges. Not mobile friendly, but visually
+                  appealing on a desktop!
+                </Card.Text>
+                <a
+                  href="https://github.com/Pierre81385/super-duper-octo-waffle"
+                  className="btn btn-outline-light"
+                >
+                  Git Repo
+                </a>
+                <a
+                  href="https://loving-panini-dbae11.netlify.app/"
+                  className="btn btn-outline-light"
+                  style={style.button}
+                >
+                  Deployed Site
+                </a>
+              </Card.Body>
+            </Card>
+          </Col>
           <Col>
             <Card style={style.card}>
               <Card.Img variant="top" src={scalingLamp} />
