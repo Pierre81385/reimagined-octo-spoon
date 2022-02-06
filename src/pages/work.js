@@ -25,6 +25,9 @@ export default function Work() {
     },
     img: {
       width: "1000px",
+      hover: {
+        transform: "scale(1.5)",
+      },
     },
     card: {
       marginRight: "auto",
@@ -48,8 +51,8 @@ export default function Work() {
       <Container style={style.container} fluid>
         <Row xs={1} sm={2} md={3} lg={4} className="g-4">
           <Col>
-            <Card style={style.card}>
-              <Card.Img variant="top" src={TheNightClub} />
+            <Card style={style.card} className="card">
+              <Card.Img variant="top" src={TheNightClub} id="cardImg" />
               <Card.Body>
                 <Card.Title>T[-]H NIGHTCLUB</Card.Title>
                 <Card.Text>

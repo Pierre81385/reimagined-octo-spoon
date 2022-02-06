@@ -105,7 +105,7 @@ function App() {
   return (
     <div>
       <Router style={style.router}>
-        <Container fluid>
+        <Container fluid style={{ zIndex: 1 }}>
           <Row>
             <Col sm={4} style={style.header}></Col>
             <Col sm={4} style={style.header2}>
