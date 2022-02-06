@@ -48,6 +48,17 @@ function App() {
       marginTop: "10px",
       whiteSpace: "nowrap",
     },
+    link2: {
+      fontFamily: "'Bebas Neue', cursive;",
+      color: "black",
+      outlineColor: "none",
+      backgroundColor: "Transparent",
+      marginLeft: "20px",
+      marginRight: "20px",
+      marginTop: "25x",
+      whiteSpace: "nowrap",
+      marginBottom: "10px",
+    },
     firstLink: {
       fontFamily: "'Bebas Neue', cursive;",
       padding: "15px",
@@ -57,16 +68,7 @@ function App() {
       marginTop: "10px",
       whiteSpace: "nowrap",
     },
-    link2: {
-      fontFamily: "'Bebas Neue', cursive;",
-      color: "black",
-      outlineColor: "none",
-      backgroundColor: "Transparent",
-      marginLeft: "10px",
-      marginTop: "25x",
-      whiteSpace: "nowrap",
-      marginBottom: "10px",
-    },
+
     img: {
       width: "75%",
     },
@@ -114,21 +116,10 @@ function App() {
               <Link to="/contact" id="link" style={style.link}>
                 CONNECT
               </Link>
-              <div>
-                <a href="mailto: pjb.den@gmail.com" style={style.link2}>
-                  {/* <img src={email} style={style.icons}></img> */}
-                  pjb.den@gmail.com
-                </a>
-              </div>
-              <div>
-                <a href="tel:7202725223" style={style.link2}>
-                  {/* <img src={phone} style={style.icons}></img> */}
-                  720-272-5223
-                </a>
-              </div>
             </Col>
             <Col sm={4} style={style.header2}></Col>
           </Row>
+
           <Row style={{ textAlign: "center", marginBottom: "25px" }}>
             <div>
               <img src={jquery} alt="jquery" style={style.icons2}></img>
@@ -144,6 +135,21 @@ function App() {
               <img src={react} alt="react" style={style.icons2}></img>
               {/* <img src={boostrap} alt="bootstrap" style={style.icons2}></img> */}
               {/* <img src={express} alt="express" style={style.icons2}></img> */}
+            </div>
+          </Row>
+          <Row>
+            <div className="text-center" style={{ color: "black" }}>
+              <div>
+                <a href="mailto: pjb.den@gmail.com" style={style.link2}>
+                  <img src={email} style={style.icons}></img>
+                  pjb.den@gmail.com
+                </a>
+                1617 California Street, APT# 4E, Denver, CO 80202
+                <a href="tel:7202725223" style={style.link2}>
+                  <img src={phone} style={style.icons}></img>
+                  720-272-5223
+                </a>
+              </div>
             </div>
           </Row>
         </Container>
