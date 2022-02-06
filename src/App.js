@@ -102,10 +102,9 @@ function App() {
       <Router style={style.router}>
         <Container fluid>
           <Row>
-            <Col sm={4} style={style.header}>
-              <h1 style={style.h1}>- Peter John Bishop</h1>
-            </Col>
+            <Col sm={4} style={style.header}></Col>
             <Col sm={4} style={style.header2}>
+              <h1 style={style.h1}>Peter John Bishop</h1>
               <Link to="/about" id="link" style={style.firstLink}>
                 ABOUT
               </Link>
@@ -117,20 +116,18 @@ function App() {
               </Link>
               <div>
                 <a href="mailto: pjb.den@gmail.com" style={style.link2}>
-                  <img src={email} style={style.icons}></img>
+                  {/* <img src={email} style={style.icons}></img> */}
                   pjb.den@gmail.com
                 </a>
               </div>
               <div>
                 <a href="tel:7202725223" style={style.link2}>
-                  <img src={phone} style={style.icons}></img>
+                  {/* <img src={phone} style={style.icons}></img> */}
                   720-272-5223
                 </a>
               </div>
             </Col>
-            <Col sm={4} style={style.header2}>
-             
-            </Col>
+            <Col sm={4} style={style.header2}></Col>
           </Row>
           <Row style={{ textAlign: "center", marginBottom: "25px" }}>
             <div>
