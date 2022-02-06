@@ -14,8 +14,8 @@ export default function Contact() {
       color: "white",
       paddingTop: "25px",
       paddingBottom: "25px",
-      backdropFilter: "blur(2px)",
-      backgroundColor: "rgba(0, 0, 0, 0.3)",
+      // backdropFilter: "blur(2px)",
+      // backgroundColor: "rgba(0, 0, 0, 0.3)",
     },
     img: {
       height: "150px",

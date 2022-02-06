@@ -20,7 +20,7 @@ export default function Work() {
       paddingTop: "25px",
       paddingBottom: "25px",
       backdropFilter: "blur(2px)",
-      backgroundColor: "rgba(0, 0, 0, 0.3)",
+      //backgroundColor: "rgba(0, 0, 0, 0.3)",
       //paddingLeft: "110px", //NEEDS MEDIA QUERY to set this only to set when viewport is small
     },
     img: {
@@ -37,6 +37,7 @@ export default function Work() {
       textAlign: "center",
       width: "18rem",
       color: "white",
+      borderColor: "rgba(255, 255, 255, .1)",
     },
     button: {
       marginLeft: "10px",

@@ -12,8 +12,8 @@ export default function About() {
       paddingRight: "25px",
       justifyContent: "center",
       alignItems: "center",
-      backdropFilter: "blur(2px)",
-      backgroundColor: "rgba(0, 0, 0, 0.3)",
+      // backdropFilter: "blur(2px)",
+      // backgroundColor: "rgba(0, 0, 0, 0.3)",
     },
     li: {
       textAlign: "left",

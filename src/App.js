@@ -6,7 +6,7 @@ import Work from "./pages/work";
 import Contact from "./pages/contact";
 import { Link } from "react-router-dom";
 import { Container, Row, Col } from "react-bootstrap";
-import myVideoBackground from "../src/assets/video.mp4";
+import myVideoBackground from "../src/assets/waterDrop.mp4";
 import phone from "../src/assets/phone.png";
 import email from "../src/assets/email.png";
 import { classes } from "istanbul-lib-coverage";
@@ -31,11 +31,13 @@ function App() {
   const style = {
     header: {
       textAlign: "center",
-      color: "black",
+      color: "white",
+      marginTop: "25px",
     },
     header2: {
       textAlign: "center",
-      color: "black",
+      color: "white",
+      marginTop: "25px",
     },
     link: {
       fontFamily: "'Bebas Neue', cursive;",
@@ -50,7 +52,7 @@ function App() {
     },
     link2: {
       fontFamily: "'Bebas Neue', cursive;",
-      color: "black",
+      color: "white",
       outlineColor: "none",
       backgroundColor: "Transparent",
       marginLeft: "20px",
@@ -83,6 +85,7 @@ function App() {
     },
     router: {
       zIndex: "2",
+      backdropFilter: "blur(2px)",
     },
     h1: {
       whiteSpace: "nowrap",
@@ -138,7 +141,7 @@ function App() {
             </div>
           </Row>
           <Row>
-            <div className="text-center" style={{ color: "black" }}>
+            <div className="text-center" style={{ color: "white" }}>
               <div>
                 <a href="mailto: pjb.den@gmail.com" style={style.link2}>
                   <img src={email} style={style.icons}></img>
