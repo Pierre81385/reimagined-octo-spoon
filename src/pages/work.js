@@ -19,6 +19,8 @@ export default function Work() {
       height: "100%", // so that the content will center correctly
       paddingTop: "25px",
       paddingBottom: "25px",
+      backdropFilter: "blur(2px)",
+      backgroundColor: "rgba(0, 0, 0, 0.3)",
       //paddingLeft: "110px", //NEEDS MEDIA QUERY to set this only to set when viewport is small
     },
     img: {
@@ -27,10 +29,10 @@ export default function Work() {
     card: {
       marginRight: "auto",
       marginLeft: "auto",
-      boxShadow: "0 15px 25px rgba(129, 124, 124, 0.2)",
-      borderRadius: "10px",
-      backdropFilter: "blur(2px)",
-      backgroundColor: "rgba(0, 0, 0, 0.3)",
+      //boxShadow: "0 15px 25px rgba(129, 124, 124, 0.2)",
+      //borderRadius: "10px",
+      //backdropFilter: "blur(2px)",
+      backgroundColor: "rgba(0, 0, 0, 0)",
       padding: "10px",
       textAlign: "center",
       width: "18rem",

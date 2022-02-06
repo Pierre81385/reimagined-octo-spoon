@@ -12,12 +12,15 @@ export default function About() {
       paddingRight: "25px",
       justifyContent: "center",
       alignItems: "center",
+      backdropFilter: "blur(2px)",
+      backgroundColor: "rgba(0, 0, 0, 0.3)",
     },
     li: {
       textAlign: "left",
     },
     img: {
       borderRadius: "50%",
+      marginTop: "20px",
       marginBottom: "50px",
       marginLeft: "auto",
       marginRight: "auto",
@@ -27,9 +30,9 @@ export default function About() {
     },
     content: {
       padding: "25px",
-      borderRadius: "10px",
-      backdropFilter: "blur(2px)",
-      background: "rgba(0, 0, 0, 0.3)",
+      // borderRadius: "10px",
+      // backdropFilter: "blur(2px)",
+      // background: "rgba(0, 0, 0, 0.3)",
     },
     resume: {
       color: "white",

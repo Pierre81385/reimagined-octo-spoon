@@ -31,17 +31,17 @@ function App() {
   const style = {
     header: {
       textAlign: "center",
-      color: "white",
+      color: "black",
     },
     header2: {
       textAlign: "center",
-      color: "white",
+      color: "black",
     },
     link: {
       fontFamily: "'Bebas Neue', cursive;",
       padding: "15px",
-      width: "20px",
-      color: "white",
+      // width: "40px",
+      color: "black",
       outlineColor: "none",
       backgroundColor: "Transparent",
       marginLeft: "25px",
@@ -51,7 +51,7 @@ function App() {
     firstLink: {
       fontFamily: "'Bebas Neue', cursive;",
       padding: "15px",
-      color: "white",
+      color: "black",
       outlineColor: "none",
       backgroundColor: "Transparent",
       marginTop: "10px",
@@ -59,7 +59,7 @@ function App() {
     },
     link2: {
       fontFamily: "'Bebas Neue', cursive;",
-      color: "white",
+      color: "black",
       outlineColor: "none",
       backgroundColor: "Transparent",
       marginLeft: "10px",
@@ -106,17 +106,15 @@ function App() {
               <h1 style={style.h1}>- Peter John Bishop</h1>
             </Col>
             <Col sm={4} style={style.header2}>
-              <Link to="/about" style={style.firstLink}>
+              <Link to="/about" id="link" style={style.firstLink}>
                 ABOUT
               </Link>
-              <Link to="/work" style={style.link}>
+              <Link to="/work" id="link" style={style.link}>
                 WORK
               </Link>
-              <Link to="/contact" style={style.link}>
+              <Link to="/contact" id="link" style={style.link}>
                 CONNECT
               </Link>
-            </Col>
-            <Col sm={4} style={style.header2}>
               <div>
                 <a href="mailto: pjb.den@gmail.com" style={style.link2}>
                   <img src={email} style={style.icons}></img>
@@ -129,6 +127,9 @@ function App() {
                   720-272-5223
                 </a>
               </div>
+            </Col>
+            <Col sm={4} style={style.header2}>
+             
             </Col>
           </Row>
           <Row style={{ textAlign: "center", marginBottom: "25px" }}>

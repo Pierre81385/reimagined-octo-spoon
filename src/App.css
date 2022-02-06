@@ -42,3 +42,22 @@
   color: #61dafb;
 }
 
+#link {
+  position: relative;
+  display: inline-block;
+  font-weight: 800;
+  color: black;
+  overflow: hidden;
+  background: linear-gradient(to right, white 50%, black 50%, black);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 275ms ease;
+  text-decoration: none;
+  white-space: nowrap;
+}
+#link:hover {
+  background-position: 0 100%;
+}
