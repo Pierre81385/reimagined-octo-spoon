@@ -147,7 +147,7 @@ function App() {
                   <img src={email} style={style.icons}></img>
                   pjb.den@gmail.com
                 </a>
-                1617 California Street, APT# 4E, Denver, CO 80202
+                Denver, CO
                 <a href="tel:7202725223" style={style.link2}>
                   <img src={phone} style={style.icons}></img>
                   720-272-5223

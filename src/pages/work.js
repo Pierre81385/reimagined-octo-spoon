@@ -60,9 +60,9 @@ export default function Work() {
                   creating a layout with sliding sections of moving content. The
                   result is a night club themed site with 4 sections that each
                   display a different video background with overlayed content. I
-                  relied heavily on the creative use of CSS to solve a variety
-                  of creative challenges. Not mobile friendly, but visually
-                  appealing on a desktop!
+                  relied heavily on the creative use of CSS, Bootstrap, and
+                  React state to solve a variety of creative challenges. Not
+                  mobile friendly, but visually appealing on a desktop!
                 </Card.Text>
                 <a
                   href="https://github.com/Pierre81385/super-duper-octo-waffle"
@@ -86,13 +86,12 @@ export default function Work() {
               <Card.Body>
                 <Card.Title>Scaling-Lamp</Card.Title>
                 <Card.Text>
-                  Scaling-Lamp is a demonstration of an ecommerce site built on
-                  the MERN stack. Users can create an account and login, with
+                  Scaling-Lamp is a demonstration of an ecommerce site built with
+                  React.js, MongoDB, Apollo GraphQL, and JWT. Users can create an account and login, with
                   authenticaion via JWT enabling logged-in users to access the
                   entire site. Logged-in users can go beyond viewing availible
                   products, with the ability to create, update, and delete
-                  products, as well as adding products to a purchase cart. This
-                  is an open-ended project, which is continually updated.
+                  products, as well as adding products to a purchase cart. 
                 </Card.Text>
                 <a
                   href="https://github.com/Pierre81385/scaling-lamp"
