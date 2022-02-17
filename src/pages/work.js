@@ -38,7 +38,7 @@ export default function Work() {
       backgroundColor: "rgba(0, 0, 0, 0)",
       padding: "10px",
       textAlign: "center",
-      width: "33rem",
+      width: "28rem",
       color: "black",
       borderColor: "rgba(0, 0, 0, .3)",
     },
