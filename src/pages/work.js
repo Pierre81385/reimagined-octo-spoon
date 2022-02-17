@@ -1,12 +1,12 @@
 import React from "react";
 import { Container, Row, Col, Card, Button, Carousel } from "react-bootstrap";
 import beerMe from "../assets/beerme.gif";
-import budgetTracker from "../assets/budgetTracker.png";
 import employeeTracker from "../assets/employeeTracker.png";
 import weatherDashboard from "../assets/weatherDashboard.png";
 import favoriteRecipes from "../assets/favoriteRecipes.png";
 import scalingLamp from "../assets/scalingLamp.gif";
 import TheNightClub from "../assets/nightclub.gif";
+import YardSale from "../assets/yardsale.gif";
 
 export default function Work() {
   const style = {
@@ -32,15 +32,15 @@ export default function Work() {
     card: {
       marginRight: "auto",
       marginLeft: "auto",
-      //boxShadow: "0 15px 25px rgba(129, 124, 124, 0.2)",
-      //borderRadius: "10px",
-      //backdropFilter: "blur(2px)",
+      boxShadow: "0 15px 25px rgba(129, 124, 124, 0.2)",
+      borderRadius: "10px",
+      backdropFilter: "blur(2px)",
       backgroundColor: "rgba(0, 0, 0, 0)",
       padding: "10px",
       textAlign: "center",
-      width: "18rem",
-      color: "white",
-      borderColor: "rgba(255, 255, 255, .1)",
+      width: "33rem",
+      color: "black",
+      borderColor: "rgba(0, 0, 0, .3)",
     },
     button: {
       marginLeft: "10px",
@@ -49,7 +49,43 @@ export default function Work() {
   return (
     <div style={{ maxWidth: "100vw", overflowX: "hidden" }}>
       <Container style={style.container} fluid>
-        <Row xs={1} sm={2} md={3} lg={4} className="g-4">
+        <Row xs={1} sm={1} md={2} lg={3} className="g-4">
+          <Col>
+            <Card style={style.card} className="card">
+              <Card.Img variant="top" src={YardSale} id="cardImg" />
+              <Card.Body>
+                <Card.Title>YARDSALE</Card.Title>
+                <Card.Text>
+                  YARDSALE is an app to allow people to post items and their
+                  location for a yardsale. Users sign up with their name,
+                  address, and email. After signing in, pressing "FIND" brings
+                  them to a page listing theirs and other users contact
+                  infomation and shows a map with this location. Pressing POST
+                  brings them to a page where they can link a photo and provide
+                  details about items for sale at their yardsale. If a mistake
+                  is made, they can update item details from the catalog page,
+                  but only if those items were uploaded by them.
+                </Card.Text>
+                <Card.Text>
+                  REACT, MongoDB, JWT, GraphQL, ApolloServer-Express, HTML, CSS,
+                  JAVASCRIPT, Bootstrap
+                </Card.Text>
+                <a
+                  href="https://github.com/Pierre81385/legendary-train"
+                  className="btn btn-outline-dark"
+                >
+                  Git Repo
+                </a>
+                <a
+                  href="https://pacific-fortress-83408.herokuapp.com/"
+                  className="btn btn-outline-dark"
+                  style={style.button}
+                >
+                  Deployed Site
+                </a>
+              </Card.Body>
+            </Card>
+          </Col>
           <Col>
             <Card style={style.card} className="card">
               <Card.Img variant="top" src={TheNightClub} id="cardImg" />
@@ -64,15 +100,16 @@ export default function Work() {
                   React state to solve a variety of creative challenges. Not
                   mobile friendly, but visually appealing on a desktop!
                 </Card.Text>
+                <Card.Text>REACT, HTML, CSS, Bootstrap</Card.Text>
                 <a
                   href="https://github.com/Pierre81385/super-duper-octo-waffle"
-                  className="btn btn-outline-light"
+                  className="btn btn-outline-dark"
                 >
                   Git Repo
                 </a>
                 <a
                   href="https://loving-panini-dbae11.netlify.app/"
-                  className="btn btn-outline-light"
+                  className="btn btn-outline-dark"
                   style={style.button}
                 >
                   Deployed Site
@@ -86,22 +123,27 @@ export default function Work() {
               <Card.Body>
                 <Card.Title>Scaling-Lamp</Card.Title>
                 <Card.Text>
-                  Scaling-Lamp is a demonstration of an ecommerce site built with
-                  React.js, MongoDB, Apollo GraphQL, and JWT. Users can create an account and login, with
-                  authenticaion via JWT enabling logged-in users to access the
-                  entire site. Logged-in users can go beyond viewing availible
-                  products, with the ability to create, update, and delete
-                  products, as well as adding products to a purchase cart. 
+                  Scaling-Lamp is a demonstration of an ecommerce site built
+                  with React.js, MongoDB, Apollo GraphQL, and JWT. Users can
+                  create an account and login, with authenticaion via JWT
+                  enabling logged-in users to access the entire site. Logged-in
+                  users can go beyond viewing availible products, with the
+                  ability to create, update, and delete products, as well as
+                  adding products to a purchase cart.
+                </Card.Text>
+                <Card.Text>
+                  REACT, MongoDB, JWT, GraphQL, ApolloServer-Express, HTML, CSS,
+                  JAVASCRIPT, Bootstrap
                 </Card.Text>
                 <a
                   href="https://github.com/Pierre81385/scaling-lamp"
-                  className="btn btn-outline-light"
+                  className="btn btn-outline-dark"
                 >
                   Git Repo
                 </a>
                 <a
                   href="https://hidden-inlet-42331.herokuapp.com/"
-                  className="btn btn-outline-light"
+                  className="btn btn-outline-dark"
                   style={style.button}
                 >
                   Deployed Site
@@ -122,15 +164,18 @@ export default function Work() {
                   responsible for designing the logic on the backend that
                   returns beers based on user input.
                 </Card.Text>
+                <Card.Text>
+                  FunTranslations API, Punk API, JQUERY, HTML, CSS
+                </Card.Text>
                 <a
                   href="https://github.com/TJCourey/beerMe-international"
-                  className="btn btn-outline-light"
+                  className="btn btn-outline-dark"
                 >
                   Git Repo
                 </a>
                 <a
                   href="https://tjcourey.github.io/beerMe-international/"
-                  className="btn btn-outline-light"
+                  className="btn btn-outline-dark"
                   style={style.button}
                 >
                   Deployed Site
@@ -145,12 +190,13 @@ export default function Work() {
               <Card.Body>
                 <Card.Title>Employee Tracker</Card.Title>
                 <Card.Text>
-                  Employee Tracker is a Content Management System for managing a
-                  company's employees using node, inquirer, and MySQL.
+                  Employee Tracker is a Content Management System CLI for
+                  managing a company's employees.
                 </Card.Text>
+                <Card.Text>NODE.js, INQUIERER, MYSQL</Card.Text>
                 <a
                   href="https://github.com/Pierre81385/employeeTracker"
-                  className="btn btn-outline-light"
+                  className="btn btn-outline-dark"
                 >
                   Git Repo
                 </a>
@@ -170,15 +216,18 @@ export default function Work() {
                   in local storage and displayed for easy retrieval. Weather
                   information is retrived via API.
                 </Card.Text>
+                <Card.Text>
+                  HTML, CSS, JAVASCRIPT, Bootstrap, OpenWeather API
+                </Card.Text>
                 <a
                   href="https://github.com/Pierre81385/weatherDashboard-HW6"
-                  className="btn btn-outline-light"
+                  className="btn btn-outline-dark"
                 >
                   Git Repo
                 </a>
                 <a
                   href="https://pierre81385.github.io/weatherDashboard-HW6/"
-                  className="btn btn-outline-light"
+                  className="btn btn-outline-dark"
                   style={style.button}
                 >
                   Deployed Site
@@ -196,15 +245,18 @@ export default function Work() {
                   create an account for posting recipes and commenting on others
                   with full CRUD functionality.
                 </Card.Text>
+                <Card.Text>
+                  NODE.js, EXPRESS, RESTful API, Sequelize, MYSQL, MVC
+                </Card.Text>
                 <a
                   href="https://github.com/JaredWilliam97/Favorite-Recipes"
-                  className="btn btn-outline-light"
+                  className="btn btn-outline-dark"
                 >
                   Git Repo
                 </a>
                 <a
                   href="https://murmuring-river-43433.herokuapp.com/"
-                  className="btn btn-outline-light"
+                  className="btn btn-outline-dark"
                   style={style.button}
                 >
                   Deployed Site

@@ -21,7 +21,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
 }
 
 .App-link {
@@ -48,7 +48,7 @@
   font-weight: 800;
   color: grey;
   overflow: hidden;
-  background: linear-gradient(to right, grey 50%, white 50%, white);
+  background: linear-gradient(to right, grey 50%, black 50%, Black);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

@@ -6,7 +6,6 @@ import Work from "./pages/work";
 import Contact from "./pages/contact";
 import { Link } from "react-router-dom";
 import { Container, Row, Col } from "react-bootstrap";
-import myVideoBackground from "../src/assets/waterDrop.mp4";
 import phone from "../src/assets/phone.png";
 import email from "../src/assets/email.png";
 import { classes } from "istanbul-lib-coverage";
@@ -31,12 +30,12 @@ function App() {
   const style = {
     header: {
       textAlign: "center",
-      color: "white",
+      color: "black",
       marginTop: "25px",
     },
     header2: {
       textAlign: "center",
-      color: "white",
+      color: "black",
       marginTop: "25px",
     },
     link: {
@@ -52,7 +51,7 @@ function App() {
     },
     link2: {
       fontFamily: "'Bebas Neue', cursive;",
-      color: "white",
+      color: "black",
       outlineColor: "none",
       backgroundColor: "Transparent",
       marginLeft: "20px",
@@ -141,7 +140,7 @@ function App() {
             </div>
           </Row>
           <Row>
-            <div className="text-center" style={{ color: "white" }}>
+            <div className="text-center" style={{ color: "black" }}>
               <div>
                 <a href="mailto: pjb.den@gmail.com" style={style.link2}>
                   <img src={email} style={style.icons}></img>
@@ -158,7 +157,7 @@ function App() {
         </Container>
 
         <div id="mainContiner">
-          <video
+          {/* <video
             autoPlay="autoplay"
             loop="loop"
             muted
@@ -167,7 +166,7 @@ function App() {
             style={style.video}
           >
             <source src={`${myVideoBackground}`} type="video/mp4" />
-          </video>
+          </video> */}
           <Route exact path="/">
             <Redirect to="/work"></Redirect>
           </Route>

@@ -11,7 +11,7 @@ export default function Contact() {
   const style = {
     container: {
       textAlign: "center",
-      color: "white",
+      color: "black",
       paddingTop: "25px",
       paddingBottom: "25px",
       // backdropFilter: "blur(2px)",
