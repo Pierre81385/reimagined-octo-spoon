@@ -11,9 +11,10 @@ import Contact from "./pages/contact";
 
 import phone from "../src/assets/phone.png";
 import email from "../src/assets/email.png";
+import Abstract1 from "../src/assets/Abstract1.jpeg";
 //for video background option
-// import { classes } from "istanbul-lib-coverage";
-// import abstract from "../src/assets/abstract.mp4";
+import { classes } from "istanbul-lib-coverage";
+import abstract from "../src/assets/abstract.mp4";
 
 //icons
 
@@ -35,18 +36,18 @@ function App() {
   const style = {
     header: {
       textAlign: "center",
-      color: "black",
+      color: "white",
       marginTop: "25px",
     },
     header2: {
       textAlign: "center",
-      color: "black",
+      color: "white",
       marginTop: "25px",
     },
     link: {
       fontFamily: "'Bebas Neue', cursive;",
       padding: "15px",
-      color: "black",
+      color: "white",
       outlineColor: "none",
       backgroundColor: "Transparent",
       marginLeft: "15px",
@@ -56,7 +57,7 @@ function App() {
     },
     link2: {
       fontFamily: "'Bebas Neue', cursive;",
-      color: "black",
+      color: "white",
       outlineColor: "none",
       backgroundColor: "Transparent",
       marginLeft: "20px",
@@ -68,7 +69,7 @@ function App() {
     firstLink: {
       fontFamily: "'Bebas Neue', cursive;",
       padding: "15px",
-      color: "black",
+      color: "white",
       outlineColor: "none",
       backgroundColor: "Transparent",
       marginTop: "10px",
@@ -107,7 +108,7 @@ function App() {
   };
 
   return (
-    <div>
+    <div style={style.main}>
       <Router style={style.router}>
         <Container fluid style={{ zIndex: 1 }}>
           <Row>
@@ -145,7 +146,7 @@ function App() {
             </div>
           </Row>
           <Row>
-            <div className="text-center" style={{ color: "black" }}>
+            <div className="text-center" style={{ color: "white" }}>
               <div>
                 <a href="mailto: pjb.den@gmail.com" style={style.link2}>
                   <img src={email} style={style.icons}></img>
@@ -161,8 +162,8 @@ function App() {
           </Row>
         </Container>
 
-        <div id="mainContiner">
-          {/* <video
+        <div style={style.pages}>
+          <video
             autoPlay="autoplay"
             loop="loop"
             muted
@@ -171,7 +172,7 @@ function App() {
             style={style.video}
           >
             <source src={`${abstract}`} type="video/mp4" />
-          </video> */}
+          </video>
           <Route exact path="/">
             <Redirect to="/work"></Redirect>
           </Route>

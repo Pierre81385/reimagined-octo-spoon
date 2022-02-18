@@ -41,8 +41,8 @@ export default function Work() {
       padding: "10px",
       textAlign: "center",
       width: "30rem",
-      color: "black",
-      borderColor: "rgba(0, 0, 0, .3)",
+      color: "white",
+      borderColor: "rgba(255, 255, 255, .5)",
     },
     button: {
       marginLeft: "10px",
@@ -79,13 +79,13 @@ export default function Work() {
                 </Card.Text>
                 <a
                   href="https://github.com/Pierre81385/legendary-train"
-                  className="btn btn-outline-dark"
+                  className="btn btn-outline-light"
                 >
                   Git Repo
                 </a>
                 <a
                   href="https://pacific-fortress-83408.herokuapp.com/"
-                  className="btn btn-outline-dark"
+                  className="btn btn-outline-light"
                   style={style.button}
                 >
                   Deployed Site
@@ -110,13 +110,13 @@ export default function Work() {
                 <Card.Text>REACT, HTML, CSS, Bootstrap</Card.Text>
                 <a
                   href="https://github.com/Pierre81385/super-duper-octo-waffle"
-                  className="btn btn-outline-dark"
+                  className="btn btn-outline-light"
                 >
                   Git Repo
                 </a>
                 <a
                   href="https://loving-panini-dbae11.netlify.app/"
-                  className="btn btn-outline-dark"
+                  className="btn btn-outline-light"
                   style={style.button}
                 >
                   Deployed Site
@@ -144,13 +144,13 @@ export default function Work() {
                 </Card.Text>
                 <a
                   href="https://github.com/Pierre81385/scaling-lamp"
-                  className="btn btn-outline-dark"
+                  className="btn btn-outline-light"
                 >
                   Git Repo
                 </a>
                 <a
                   href="https://hidden-inlet-42331.herokuapp.com/"
-                  className="btn btn-outline-dark"
+                  className="btn btn-outline-light"
                   style={style.button}
                 >
                   Deployed Site
@@ -176,13 +176,13 @@ export default function Work() {
                 </Card.Text>
                 <a
                   href="https://github.com/TJCourey/beerMe-international"
-                  className="btn btn-outline-dark"
+                  className="btn btn-outline-light"
                 >
                   Git Repo
                 </a>
                 <a
                   href="https://tjcourey.github.io/beerMe-international/"
-                  className="btn btn-outline-dark"
+                  className="btn btn-outline-light"
                   style={style.button}
                 >
                   Deployed Site
@@ -203,7 +203,7 @@ export default function Work() {
                 <Card.Text>NODE.js, INQUIERER, MYSQL</Card.Text>
                 <a
                   href="https://github.com/Pierre81385/employeeTracker"
-                  className="btn btn-outline-dark"
+                  className="btn btn-outline-light"
                 >
                   Git Repo
                 </a>
@@ -228,13 +228,13 @@ export default function Work() {
                 </Card.Text>
                 <a
                   href="https://github.com/Pierre81385/weatherDashboard-HW6"
-                  className="btn btn-outline-dark"
+                  className="btn btn-outline-light"
                 >
                   Git Repo
                 </a>
                 <a
                   href="https://pierre81385.github.io/weatherDashboard-HW6/"
-                  className="btn btn-outline-dark"
+                  className="btn btn-outline-light"
                   style={style.button}
                 >
                   Deployed Site
@@ -257,13 +257,13 @@ export default function Work() {
                 </Card.Text>
                 <a
                   href="https://github.com/JaredWilliam97/Favorite-Recipes"
-                  className="btn btn-outline-dark"
+                  className="btn btn-outline-light"
                 >
                   Git Repo
                 </a>
                 <a
                   href="https://murmuring-river-43433.herokuapp.com/"
-                  className="btn btn-outline-dark"
+                  className="btn btn-outline-light"
                   style={style.button}
                 >
                   Deployed Site

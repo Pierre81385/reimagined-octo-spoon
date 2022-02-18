@@ -7,7 +7,7 @@ export default function About() {
   const style = {
     container: {
       textAlign: "center",
-      color: "black",
+      color: "white",
       paddingLeft: "25px",
       paddingRight: "25px",
       justifyContent: "center",
