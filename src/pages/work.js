@@ -1,5 +1,7 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Container, Row, Col, Card, Button, Carousel } from "react-bootstrap";
+import Aos from "aos";
+import "aos/dist/aos.css";
 import beerMe from "../assets/beerme.gif";
 import employeeTracker from "../assets/employeeTracker.png";
 import weatherDashboard from "../assets/weatherDashboard.png";
@@ -38,7 +40,7 @@ export default function Work() {
       backgroundColor: "rgba(0, 0, 0, 0)",
       padding: "10px",
       textAlign: "center",
-      width: "28rem",
+      width: "30rem",
       color: "black",
       borderColor: "rgba(0, 0, 0, .3)",
     },
@@ -46,12 +48,17 @@ export default function Work() {
       marginLeft: "10px",
     },
   };
+
+  useEffect(() => {
+    Aos.init({});
+  }, []);
+
   return (
     <div style={{ maxWidth: "100vw", overflowX: "hidden" }}>
       <Container style={style.container} fluid>
-        <Row xs={1} sm={1} md={2} lg={3} className="g-4">
+        <Row xs={1} sm={1} md={1} lg={1} className="g-4">
           <Col>
-            <Card style={style.card} className="card">
+            <Card style={style.card} data-aos="flip-up">
               <Card.Img variant="top" src={YardSale} id="cardImg" />
               <Card.Body>
                 <Card.Title>YARDSALE</Card.Title>
@@ -87,7 +94,7 @@ export default function Work() {
             </Card>
           </Col>
           <Col>
-            <Card style={style.card} className="card">
+            <Card style={style.card} data-aos="flip-up">
               <Card.Img variant="top" src={TheNightClub} id="cardImg" />
               <Card.Body>
                 <Card.Title>T[-]H NIGHTCLUB</Card.Title>
@@ -118,7 +125,7 @@ export default function Work() {
             </Card>
           </Col>
           <Col>
-            <Card style={style.card}>
+            <Card style={style.card} data-aos="flip-up">
               <Card.Img variant="top" src={scalingLamp} />
               <Card.Body>
                 <Card.Title>Scaling-Lamp</Card.Title>
@@ -152,7 +159,7 @@ export default function Work() {
             </Card>
           </Col>
           <Col>
-            <Card style={style.card}>
+            <Card style={style.card} data-aos="flip-up">
               <Card.Img variant="top" src={beerMe} />
               <Card.Body>
                 <Card.Title>BeerMe</Card.Title>
@@ -185,7 +192,7 @@ export default function Work() {
           </Col>
 
           <Col>
-            <Card style={style.card}>
+            <Card style={style.card} data-aos="flip-up">
               <Card.Img variant="top" src={employeeTracker} />
               <Card.Body>
                 <Card.Title>Employee Tracker</Card.Title>
@@ -205,7 +212,7 @@ export default function Work() {
           </Col>
 
           <Col>
-            <Card style={style.card}>
+            <Card style={style.card} data-aos="flip-up">
               <Card.Img variant="top" src={weatherDashboard} />
               <Card.Body>
                 <Card.Title>Weather Dashboard</Card.Title>
@@ -236,7 +243,7 @@ export default function Work() {
             </Card>
           </Col>
           <Col>
-            <Card style={style.card}>
+            <Card style={style.card} data-aos="flip-up">
               <Card.Img variant="top" src={favoriteRecipes} />
               <Card.Body>
                 <Card.Title>Favorite Recipes</Card.Title>

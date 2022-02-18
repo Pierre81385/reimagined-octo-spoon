@@ -1,14 +1,19 @@
 import "./App.css";
 import { BrowserRouter as Router, Route, Redirect } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
+
+import { Link } from "react-router-dom";
+import { Container, Row, Col } from "react-bootstrap";
+
 import About from "./pages/about";
 import Work from "./pages/work";
 import Contact from "./pages/contact";
-import { Link } from "react-router-dom";
-import { Container, Row, Col } from "react-bootstrap";
+
 import phone from "../src/assets/phone.png";
 import email from "../src/assets/email.png";
-import { classes } from "istanbul-lib-coverage";
+//for video background option
+// import { classes } from "istanbul-lib-coverage";
+// import abstract from "../src/assets/abstract.mp4";
 
 //icons
 
@@ -41,11 +46,11 @@ function App() {
     link: {
       fontFamily: "'Bebas Neue', cursive;",
       padding: "15px",
-      // width: "40px",
       color: "black",
       outlineColor: "none",
       backgroundColor: "Transparent",
-      marginLeft: "25px",
+      marginLeft: "15px",
+      marginRight: "15px",
       marginTop: "10px",
       whiteSpace: "nowrap",
     },
@@ -109,7 +114,7 @@ function App() {
             <Col sm={4} style={style.header}></Col>
             <Col sm={4} style={style.header2}>
               <h1 style={style.h1}>Peter John Bishop</h1>
-              <Link to="/about" id="link" style={style.firstLink}>
+              <Link to="/about" id="link" style={style.link}>
                 ABOUT
               </Link>
               <Link to="/work" id="link" style={style.link}>
@@ -165,7 +170,7 @@ function App() {
             className={classes.Video}
             style={style.video}
           >
-            <source src={`${myVideoBackground}`} type="video/mp4" />
+            <source src={`${abstract}`} type="video/mp4" />
           </video> */}
           <Route exact path="/">
             <Redirect to="/work"></Redirect>

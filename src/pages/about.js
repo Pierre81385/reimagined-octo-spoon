@@ -46,14 +46,6 @@ export default function About() {
   return (
     <div style={style.container}>
       <img src={profilePic} style={style.img}></img>
-      <div style={style.content}>
-        <div style={style.iconContainer}>
-          <h2>DOWNLOAD CV</h2>
-          <a href={resume}>
-            <img src={downloadIcon} style={style.icon}></img>
-          </a>
-        </div>
-      </div>
 
       <div style={style.content}>
         <h2>Proficiencies</h2>
@@ -115,6 +107,15 @@ export default function About() {
             recipes that are still available today.
           </li>
         </ul>
+      </div>
+
+      <div style={style.content}>
+        <div style={style.iconContainer}>
+          <h2>DOWNLOAD CV</h2>
+          <a href={resume}>
+            <img src={downloadIcon} style={style.icon}></img>
+          </a>
+        </div>
       </div>
     </div>
   );
