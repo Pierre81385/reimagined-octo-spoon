@@ -10,6 +10,8 @@ import scalingLamp from "../assets/scalingLamp.gif";
 import TheNightClub from "../assets/nightclub.gif";
 import YardSale from "../assets/yardsale.gif";
 
+import "../pages/work.css";
+
 export default function Work() {
   const style = {
     container: {

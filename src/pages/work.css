@@ -1,0 +1,5 @@
+@media only screen and (max-width: 572px) {
+  Card {
+    width: 18rem;
+  }
+}
