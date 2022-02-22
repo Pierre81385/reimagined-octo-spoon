@@ -51,7 +51,8 @@ export default function About() {
         <h2>Proficiencies</h2>
         <p>
           HTML | CSS | JAVASCRIPT | JQUERY | MONGODB | MYSQL | REACTjs | EXPRESS
-          | NODEjs | HANDLEBARS | BOOSTRAP | RESTful | graphQL | JSON
+          | NODEjs | HANDLEBARS | BOOSTRAP | RESTful | graphQL | JSON | AWS |
+          DynamoDB
         </p>
         <p>
           My name is Peter Bishop, and after years of working lower level roles

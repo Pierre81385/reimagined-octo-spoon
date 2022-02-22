@@ -30,6 +30,7 @@ import node from "../src/assets/icons/4375017_js_logo_node_icon.png";
 import swift from "../src/assets/icons/4375105_logo_swift_icon.png";
 import react from "../src/assets/icons/7423887_react_react native_icon.png";
 import boostrap from "../src/assets/icons/8546808_bootstrap_icon.png";
+import aws from "../src/assets/aws.png";
 import express from "../src/assets/icons/kisspng-mean-solution-stack-express-js-node-js-javascript-5b1647bd733da2.082026521528186813472.png";
 
 function App() {
@@ -130,6 +131,8 @@ function App() {
 
           <Row style={{ textAlign: "center", marginBottom: "25px" }}>
             <div>
+              <img src={aws} alt="aws" style={style.icons2}></img>
+
               <img src={jquery} alt="jquery" style={style.icons2}></img>
               {/* <img src={github} alt="github" style={style.icons2}></img> */}
               <img src={mysql} alt="mysql" style={style.icons2}></img>

@@ -42,7 +42,7 @@ export default function Work() {
       backgroundColor: "rgba(0, 0, 0, 0)",
       padding: "10px",
       textAlign: "center",
-      width: "30rem",
+      width: "25rem",
       color: "white",
       borderColor: "rgba(255, 255, 255, .5)",
     },
