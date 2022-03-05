@@ -3,6 +3,7 @@ import profilePic from "../assets/profile.jpg";
 import resume from "../assets/Peter Bishop - Resume 2022.pdf"; //updated 12/16/2021
 import downloadIcon from "../assets/downloadIcon.png";
 
+
 export default function About() {
   const style = {
     container: {
@@ -45,7 +46,6 @@ export default function About() {
   };
   return (
     <div style={style.container}>
-      <img src={profilePic} style={style.img}></img>
 
       <div style={style.content}>
         <h2>Proficiencies</h2>
@@ -54,6 +54,9 @@ export default function About() {
           | NODEjs | HANDLEBARS | BOOSTRAP | RESTful | graphQL | JSON | AWS |
           DynamoDB
         </p>
+
+        <img src={profilePic} style={style.img}></img>
+
         <p>
           My name is Peter Bishop, and after years of working lower level roles
           in various tech startups while maintaining side jobs bartending at

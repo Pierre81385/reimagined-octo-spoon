@@ -8,6 +8,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import About from "./pages/about";
 import Work from "./pages/work";
 import Contact from "./pages/contact";
+import Me from "./pages/me";
 
 import phone from "../src/assets/phone.png";
 import email from "../src/assets/email.png";
@@ -119,6 +120,9 @@ function App() {
               <Link to="/about" id="link" style={style.link}>
                 ABOUT
               </Link>
+              <Link to="/me" id="link" style={style.link}>
+                ME
+              </Link>
               <Link to="/work" id="link" style={style.link}>
                 WORK
               </Link>
@@ -182,6 +186,9 @@ function App() {
 
           <Route exact path="/about">
             <About />
+          </Route>
+          <Route exact path="/me">
+            <Me />
           </Route>
           <Route exact path="/work">
             <Work />
