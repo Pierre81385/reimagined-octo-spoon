@@ -65,15 +65,15 @@ export default function Work() {
               <Card.Body>
                 <Card.Title>YARDSALE</Card.Title>
                 <Card.Text>
-                  YARDSALE is an app to allow people to post items and their
-                  location for a yardsale. Users sign up with their name,
-                  address, and email. After signing in, pressing "FIND" brings
-                  them to a page listing theirs and other users contact
-                  infomation and shows a map with this location. Pressing POST
-                  brings them to a page where they can link a photo and provide
-                  details about items for sale at their yardsale. If a mistake
-                  is made, they can update item details from the catalog page,
-                  but only if those items were uploaded by them.
+                  YARDSALE is an app for posting items for sale at your
+                  yardsale, and providing users with a map of its location.
+                  Built on React for the front end and Apollo-Server-Express,
+                  client side routing is done with React Router, whhile Apollo
+                  GraphQL manages requests from MongoDB Atlas. Login
+                  authorization is verified with JSON Web Token, which also
+                  helps to provide users with conditional functionality. Address
+                  information is input by the user on signup, and presented to
+                  all users in an embeded Google Map.
                 </Card.Text>
                 <Card.Text>
                   REACT, MongoDB, JWT, GraphQL, ApolloServer-Express, HTML, CSS,
@@ -106,10 +106,11 @@ export default function Work() {
                   result is a night club themed site with 4 sections that each
                   display a different video background with overlayed content. I
                   relied heavily on the creative use of CSS, Bootstrap, and
-                  React state to solve a variety of creative challenges. Not
-                  mobile friendly, but visually appealing on a desktop!
+                  React states to solve a variety of creative challenges. Not
+                  mobile friendly, but a visually appealing experiment on
+                  desktop environments!
                 </Card.Text>
-                <Card.Text>REACT, HTML, CSS, Bootstrap</Card.Text>
+                <Card.Text>REACT, HTML, CSS, , Javascript, Bootstrap</Card.Text>
                 <a
                   href="https://github.com/Pierre81385/super-duper-octo-waffle"
                   className="btn btn-outline-light"
