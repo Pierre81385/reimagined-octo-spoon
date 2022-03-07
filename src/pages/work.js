@@ -9,6 +9,7 @@ import favoriteRecipes from "../assets/favoriteRecipes.png";
 import scalingLamp from "../assets/scalingLamp.gif";
 import TheNightClub from "../assets/nightclub.gif";
 import YardSale from "../assets/yardsale.gif";
+import InstaClone from "../assets/instaclone.gif";
 
 import "../pages/work.css";
 
@@ -59,6 +60,48 @@ export default function Work() {
     <div style={{ maxWidth: "100vw", overflowX: "hidden" }}>
       <Container style={style.container} fluid>
         <Row xs={1} sm={1} md={1} lg={1} className="g-4">
+          <Col>
+            <Card style={style.card} data-aos="flip-up">
+              <Card.Img variant="top" src={InstaClone} id="cardImg" />
+              <Card.Body>
+                <Card.Title>InstaClone</Card.Title>
+                <Card.Text>
+                  This repo was originially intended to test out different auth
+                  API's, but the scope expanded into essentially an Instagram
+                  clone. Auth services are handled by FirbaseAuth, and user
+                  information is stored in a Firestore database. Images are
+                  stored in a bucket through AWS S3, and are linked to posts in
+                  an AWS DynamoDB database. DynamoDB stores tables for Posts,
+                  Comments, Likes, and Replys with each document's creatAt
+                  number serving as their unique identifier. Uploading is
+                  handled by Mutler. Front end routing is done with React, while
+                  backend routing is done through Express. Deployed site coming
+                  soon!!!
+                </Card.Text>
+                <Card.Text>
+                  This site is still under construction, please visit my Git
+                  repo to see the progress!
+                </Card.Text>
+                <Card.Text>
+                  REACT, AWS S3, AWS DynamoDB, Express, FirbaseAuth, Firebase
+                  Firestore HTML, CSS, JAVASCRIPT, Bootstrap, and Mutler
+                </Card.Text>
+                <a
+                  href="https://github.com/Pierre81385/authTester"
+                  className="btn btn-outline-light"
+                >
+                  Git Repo
+                </a>
+                <a
+                  href="#"
+                  className="btn btn-outline-light"
+                  style={style.button}
+                >
+                  Deployed Site
+                </a>
+              </Card.Body>
+            </Card>
+          </Col>
           <Col>
             <Card style={style.card} data-aos="flip-up">
               <Card.Img variant="top" src={YardSale} id="cardImg" />
