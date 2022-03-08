@@ -97,7 +97,7 @@ export default function Work() {
                   className="btn btn-outline-light"
                   style={style.button}
                 >
-                  Deployed Site
+                  EC2 Deploy
                 </a>
               </Card.Body>
             </Card>
@@ -133,7 +133,7 @@ export default function Work() {
                   className="btn btn-outline-light"
                   style={style.button}
                 >
-                  Deployed Site
+                  Heroku Deploy
                 </a>
               </Card.Body>
             </Card>
@@ -165,7 +165,7 @@ export default function Work() {
                   className="btn btn-outline-light"
                   style={style.button}
                 >
-                  Deployed Site
+                  Netlify Deploy
                 </a>
               </Card.Body>
             </Card>
@@ -199,7 +199,7 @@ export default function Work() {
                   className="btn btn-outline-light"
                   style={style.button}
                 >
-                  Deployed Site
+                  Heroku Deploy
                 </a>
               </Card.Body>
             </Card>
@@ -231,7 +231,7 @@ export default function Work() {
                   className="btn btn-outline-light"
                   style={style.button}
                 >
-                  Deployed Site
+                  GitPages Deploy
                 </a>
               </Card.Body>
             </Card>
@@ -283,7 +283,7 @@ export default function Work() {
                   className="btn btn-outline-light"
                   style={style.button}
                 >
-                  Deployed Site
+                  GitPages Deploy
                 </a>
               </Card.Body>
             </Card>
@@ -312,7 +312,7 @@ export default function Work() {
                   className="btn btn-outline-light"
                   style={style.button}
                 >
-                  Deployed Site
+                  Heroku Deploy
                 </a>
               </Card.Body>
             </Card>
