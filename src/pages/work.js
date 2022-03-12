@@ -9,7 +9,7 @@ import favoriteRecipes from "../assets/favoriteRecipes.png";
 import scalingLamp from "../assets/scalingLamp.gif";
 import TheNightClub from "../assets/nightclub.gif";
 import YardSale from "../assets/yardsale.gif";
-import InstaClone from "../assets/instaclone.gif";
+import InstaClone from "../assets/instaClone.gif";
 
 import "../pages/work.css";
 
