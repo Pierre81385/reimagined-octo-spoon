@@ -93,7 +93,7 @@ export default function Work() {
                   Git Repo
                 </a>
                 <a
-                  href="#"
+                  href="http://18.188.18.22/"
                   className="btn btn-outline-light"
                   style={style.button}
                 >
