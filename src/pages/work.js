@@ -10,6 +10,7 @@ import scalingLamp from "../assets/scalingLamp.gif";
 import TheNightClub from "../assets/nightclub.gif";
 import YardSale from "../assets/yardsale.gif";
 import InstaClone from "../assets/instaDemo.gif";
+import POS from "../assets/pos3.gif";
 
 import "../pages/work.css";
 
@@ -62,6 +63,31 @@ export default function Work() {
         <Row xs={1} sm={1} md={1} lg={1} className="g-4">
           <Col>
             <Card style={style.card} data-aos="flip-up">
+              <Card.Img variant="top" src={POS} id="cardImg" />
+              <Card.Body>
+                <Card.Title>POS Flutter APP</Card.Title>
+                <Card.Text>
+                  This is my first Flutter/Dart application, which I modeled
+                  after a point of sale ordering system for use on mobile.
+                  Authorization is handled by Firebase Auth, with database
+                  services to store user profiles, menu items, and ordering
+                  information provided by Firestore. The focus of this project
+                  was to work with flutter to create a layout that was generated
+                  dynamically from database content.
+                </Card.Text>
+
+                <Card.Text>Flutter, Dart, FirebaseAuth, Firestore</Card.Text>
+                <a
+                  href="https://github.com/Pierre81385/app_playground"
+                  className="btn btn-outline-light"
+                >
+                  Git Repo
+                </a>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col>
+            <Card style={style.card} data-aos="flip-up">
               <Card.Img variant="top" src={InstaClone} id="cardImg" />
               <Card.Body>
                 <Card.Title>InstaClone</Card.Title>
@@ -78,10 +104,7 @@ export default function Work() {
                   backend routing is done through Express. Deployed site coming
                   soon!!!
                 </Card.Text>
-                <Card.Text>
-                  This site is still under construction, please visit my Git
-                  repo to see the progress!
-                </Card.Text>
+
                 <Card.Text>
                   REACT, AWS S3, AWS DynamoDB, Express, FirbaseAuth, Firebase
                   Firestore HTML, CSS, JAVASCRIPT, Bootstrap, and Mutler
